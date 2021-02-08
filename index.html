@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            background-color: #4A81B2;
+            color: #fff;
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .counter{
+            color: #F5B041;
+            font-size: 60px;
+            padding: 10px 0;
+        }
+
+        .counter_container{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="counter_container">
+        <i class="fas fa-mug-hot fa-3x"></i>
+        <div class="counter" data-target="4000"></div>
+        <span>Project Complited</span>
+    </div>
+    
+    <div class="counter_container">
+        <i class="fas fa-users fa-3x"></i>
+        <div class="counter" data-target="15000"></div>
+        <span>Our Happu Clintes</span>
+    </div>
+
+    <div class="counter_container">
+        <i class="fas fa-tasks fa-3x"></i>
+        <div class="counter" data-target="500"></div>
+        <span>On going Projects</span>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
